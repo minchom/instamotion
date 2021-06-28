@@ -3,12 +3,13 @@
 ```bash
 OS
 install docker v.3.1.1
+install node v12+
 npm install - g serverless
 npm install -g typescript
 
 inside the project
 npm install
-serverless dynamodb install (or to use a persistent docker dynamodb instead, open a new terminal: cd ./dynamodb && docker-compose up -d)
+cd ./dynamodb && docker-compose up -d
 serverless offline start
 serverless dynamodb migrate (this imports schema)
 ```
