@@ -1,0 +1,40 @@
+{
+  "name": "aws-node-graphql-api-with-dynamodb-typescript-and-offline",
+  "version": "1.0.0",
+  "description": "Serverless Lambda with DynamoDB, typescript, graphQL and offline support",
+  "repository": "",
+  "author": "Mincho Milev",
+  "license": "MIT",
+  "scripts": {
+    "start": "sls offline start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "aws-lambda": "^0.1.2",
+    "graphql-yoga": "^1.18.3",
+    "node": "^12.3.1",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "8.10.1",
+    "@types/node": "^8.0.57",
+    "@types/uuid": "^3.4.4",
+    "aws-sdk": "^2.625.0",
+    "serverless-bundle": "3.2.1",
+    "serverless-dynamodb-local": "^0.2.39",
+    "serverless-webpack": "^5.1.1",
+    "source-map-support": "^0.5.6",
+    "ts-loader": "^4.2.0",
+    "@babel/core": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-typescript": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "cache-loader": "^4.1.0",
+    "fork-ts-checker-webpack-plugin": "^5.0.12",
+    "serverless": "^1.77.1",
+    "serverless-offline": "^6.5.0",
+    "typescript": "^3.9.7",
+    "webpack": "^4.5.0",
+    "webpack-node-externals": "^2.5.0"
+  }
+}
