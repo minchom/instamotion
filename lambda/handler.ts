@@ -1,7 +1,7 @@
 'use strict';
 
 import { graphql } from 'graphql';
-import {schema} from "./schema";
+import {schema} from "../schema";
 
 export const queryVehicles = (event, context, callback) => {
     graphql(schema, event.body)

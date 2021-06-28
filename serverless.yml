@@ -42,7 +42,7 @@ provider:
 
 functions:
   queryVehicles:
-    handler: handler.queryVehicles
+    handler: lambda/handler.queryVehicles
     events:
       - http:
           path: vehicles
